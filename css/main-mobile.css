@@ -1,0 +1,67 @@
+.header {
+  flex-direction: column;
+  height: 10vh;
+}
+
+header ul {
+  flex-direction: column;
+}
+
+.content h1 {
+  font-size: 3rem;
+}
+
+.content p {
+  font-size: 1.5rem;
+}
+
+.offer-list {
+  flex-direction: column;
+}
+
+
+.team {
+  flex-direction: column-reverse;
+}
+
+
+.team-presentation {
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+}
+
+
+.testimonials-elem {
+  flex: 1;
+  background: white;
+  border-radius: 5px;
+  padding: 2rem;
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.testimonials-elem-reverse {
+  flex-direction: column-reverse
+}
+
+.testimonials-elem-text p {
+  text-align: center;
+}
+
+.testimonials-elem-profil img {
+  display: block;
+  margin: 2rem auto;
+}
+
+.contact {
+  padding: 5rem 1rem 5rem 1rem
+}
+
+.contact-form button {
+  margin: 3rem auto 0 auto;
+}
